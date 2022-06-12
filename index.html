@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>cv</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500;700&display=swap"
+      rel="stylesheet">
+   <link rel="shortcut icon" href="imges/fivicon.ico">  
+   <link rel="stylesheet" href="css/all.min.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   <header id="sidebar" class="sidebar">
+      <div class="container">
+         <div class="header__inner-box">
+            <div class="box-sidebar">
+               <div class="box__top-img">
+                  <img class="box-sidebar__img" src="imges/photo/miPhoto.jpg" width="270" alt="Alt">
+               </div>
+               <h1 class="sidebar__title">Alexander<span>Web-Development.</span></h1>
+               <div class="box__sidebar-block">
+                     <h4>Contacts</h4>
+                  <div class="box-sidebar__link">
+                     <a href="tel:+380951788198" class="box-link__tel">+3 8-095-178-81-98</a>
+                     <a href="mailto:Lukianienko.al84@gmail.com" class="box-link__email">
+                     Lukianienko.al84@gmail.com</a>
+                  </div>
+                  <h4>Tech Skills</h4>
+                  <ul class="box-sidebar__list">
+                     <li class="box-sidebar-item">JS</li>
+                     <li class="box-sidebar-item">HTML5</li>
+                     <li class="box-sidebar-item">CSS3</li>                     
+                     <li class="box-sidebar-item">BEM methodology</li>
+                     <li class="box-sidebar-item">Gulp Technologies</li>
+                     <li class="box-sidebar-item">SCSS Preprocessors</li>
+                  </ul>
+               </div>
+            </div>
+         <div class="box__content">
+               <h2 class="box__content-title ">Давайте осуществим Вашу идею вместе :)</h2>              
+            <div class="box__arrow">
+               <a href="#" class="animate__animated animate__fadeInDown animate__infinite animate__slowe">
+               <img class="box__arrow-img" src="imges/down_arrows.svg" alt="Alt"></a>
+            </div>
+               <div class="box__content-btn">
+                  <a class="btn" href="#portfolio">portfolio</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="animate">
+      <div class="container">
+       <h2 class="portfolio__title animate-title wow animate__animated animate__fadeInLeft" data-wow-offset="100"> Аnimates :)</h2>
+         <div class="animate__inner">
+          <div class="acordeon wow animate__animated  animate__fadeInLeft " data-wow-offset="200">
+               <div class="acordeon__title" data-name="acordeon-header"> Информация</div>
+               <div class="acordeon__content ">
+                  <p class="acordeon__text">1 Accordeon реализован на JS.
+                     возможна реализация на jQuery
+                      . </p>
+               </div>
+               <div class="acordeon__title" data-name="acordeon-header">acordeon 2</div>
+               <div class="acordeon__content hidden">
+                  <p class="acordeon__text">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+               </div>
+               <div class="acordeon__title" data-name="acordeon-header">acordeon 3</div>
+               <div class="acordeon__content hidden">
+                  <p class="acordeon__text">3 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+         </div>
+      <div class="block-menu wow animate__animated animate__fadeInUp" data-wow-offset="200">
+       <nav class="menu">
+         <ul class="menu__list">
+         <li class="menu__item" style="--i:5;">
+            <a class="menu__item-link" href="#">about</a>
+         </li>
+         <li class="menu__item" style="--i:4;">
+            <a class="menu__item-link" href="#">my skills</a>
+         </li>
+         <li class="menu__item" style="--i:3;">
+            <a class="menu__item-link" href="#">projects</a>
+         </li>
+         <li class="menu__item" style="--i:2;">
+            <a class="menu__item-link" href="#">price</a>
+         </li>
+         <li class="menu__item" style="--i:1;">
+            <a class="menu__item-link" href="#">support conditions</a>
+         </li>
+      </ul>
+     </nav>
+   </div>
+   <div class="tabs wow  animate__animated animate__fadeInRight" data-wow-offset="200">
+      <ul class="tabs__list">
+         <li class="tabs__item" data-tab="tab-1">tab 1</li>
+         <li class="tabs__item" data-tab="tab-2">tab 2</li>
+         <li class="tabs__item" data-tab="tab-3">tab 3</li>
+      </ul>
+
+      <div class="tabs__content back-tifani" data-tab-content id="tab-1">
+         <h4 class="tabs__content-title">tab-1</h4>
+         <p class="tabs__content-text">
+            Табы реализованы на чистом JavaScript + css.
+         </p>
+      </div>
+      <div class="tabs__content hidden-box back-pink" data-tab-content id="tab-2">
+         <h4 class="tabs__content-title">tab-2</h4>
+         <p class="tabs__content-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         </p>
+      </div>
+      <div class="tabs__content hidden-box back-grin" data-tab-content id="tab-3">
+         <h4 class="tabs__content-title">tab-3</h4>
+         <p class="tabs__content-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         </p>
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+<sectaion id="portfolio" class="portfolio">
+   <div class="container">
+      <div class="wrapper__title">
+        
+      <div class="weather wow animate__animated  animate__fadeInLeft " data-wow-offset="200">
+         <style>
+            .meteo-informer {
+               width: 350px;
+               min-height: 148px;
+               border-color: #BBBBB9;
+               background-color: #FFFFFF;
+               color: #2B2B2B;
+               font-family: Arial, sans-serif
+            }
+         
+            .meteo-informer__cell-description,
+            .meteo-informer__cell-icon,
+            .meteo-informer__cell-info,
+            .meteo-informer__cell-logo,
+            .meteo-informer__cell-specification {
+               border-bottom-color: #BBBBB9;
+            }
+         </style>
+         <div id="meteo_informer_7fdcc61e953dc9b3d243bca3a2bd5d90">
+            <p><a href="https://meteo.ua/ua/164/dnepr-dnepropetrovsk">Погода в Дніпрі (Дніпропетровську)
+               </a></p>
+         </div>
+         <script async type="text/javascript" charset="utf-8"
+            src="https://meteo.ua/informer-7fdcc61e953dc9b3d243bca3a2bd5d90"></script>
+         </div>
+         <script async src="https://app.meteolabs.com.ua/js/?id=ml_1d29dfea"></script>
+
+         <h3 class="portfolio__title project-title">My training Projects</h3>
+
+         <div class="calculator wow animate__animated  animate__fadeInRight " data-wow-offset="200">
+      <!-- Minfin.com.ua currency informer 280x120 yellow-->
+      <div id="minfin-informer-m1Fn-currency">Загружаем <a href="https://minfin.com.ua/currency/" target="_blank">курсы
+            валют</a><a>от minfin.com.ua</a></div>
+      <script>var iframe = '<ifra' + 'me width="280" height="120" fram' + 'eborder="0" src="https://informer.minfin.com.ua/gen/course/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:280px;height:120px;ove' + 'rflow:hidden;"></iframe>'; var cl = 'minfin-informer-m1Fn-currency'; document.getElementById(cl).innerHTML = iframe; </script>
+      <noscript><img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курсы валют"
+            title="Курс валют" /></noscript>
+      <!-- Minfin.com.ua currency informer 280x120 yellow-->
+        
+         </div>
+         </div>
+         <ul class="portfolio__items single-item-rtl wow animate__animated animate__fadeInUp"  data-wow-offset="200">
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/kurort.jpg);">
+               <a class="portfolio__link" href="sites-portfolio/kurort/index1.html">watch</a>
+            </li>
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/vantage.jpg);">
+               <a href="sites-portfolio/vantage/index2.html" class="portfolio__link">watch</a>
+            </li>
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/escape.jpg);">
+               <a href="sites-portfolio/EscapeLend/app/index3.html" class="portfolio__link">watch</a>
+            </li>
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/Atelier.jpg);">
+               <a href="sites-portfolio/atelier/index4.html" class="portfolio__link">watch</a>
+            </li>
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/shoise.jpg);">
+               <a class="portfolio__link" href="sites-portfolio/shoes/index5.html">watch</a>
+            </li>
+            <li class="portfolio__item" style="background-image: url(imges/bg-style-items/single.jpg);">
+               <a class="portfolio__link" href="sites-portfolio/single/index6.html">watch</a>
+            </li>
+            <li class="portfolio__item portfolio__item-repair" style="background-image: url(imges/);">
+               <a class="portfolio__link portfolio__link-open" href="#">revision</a>
+            </li>
+            <li class="portfolio__item portfolio__item-repair" style="background-image: url(imges/bg-style-items/mogo.jpg);">
+               <a class="portfolio__link portfolio__link-open" href="#">revision</a>
+            </li>
+            <li class="portfolio__item portfolio__item-repair " style="background-image: url(imges/);">
+               <a class="portfolio__link portfolio__link-open" href="#">revision</a>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <!-- <section  class="about"id="about">
+      <div class="container">
+         <h3 class="portfolio__title">about</h3>
+          <div class="about__accord">
+            <div class="about__accord-item">
+               <div class="about__accord-head data-heads='toggle-cont'"></div>
+               <div class="about__accord-cont hidden-cont"></div>
+            </div>
+            <div class="about__accord-item">
+               <div class="about__accord-head data-heads='toggle-cont'"></div>
+               <div class="about__accord-cont hidden-cont"></div>
+            </div>
+         </div> 
+      </div>
+   </section> -->
+   <footer id="footer" class="footer">
+      <div class="footer__container">
+         <div class="title-box-wow ">
+            <h3 class="footer__title wow ">Let's chat</h3>
+         </div>
+         <div class="footer__inner">
+            <ul class="footer__social">
+               <li class="footer__social-item">
+                  <a class="footer__social-link link-facebook" target="_blank"
+                     href="https://www.facebook.com/profile.php?id=100041293028517"><i
+                        class="fab fa-facebook-f"></i></a>
+               </li>
+               <li class="footer__social-item">
+                  <a class="footer__social-link link-viber" target="_blank" href="https://msngr.link/vi/380983692418"><i
+                        class="fab fa-viber"></i></a>
+               </li>
+               <li class="footer__social-item">
+                  <a class="footer__social-link link-telegram" target="_blank" href="https://t.me/PITON_24"><i
+                        class="fab fa-telegram-plane"></i></a>
+               </li>
+            </ul>
+            <div class="footer__form">
+               <form action="/" method="post" enctype="multipart/form-data">
+               
+                  <!-- Hidden Required Fields -->
+               
+                  <input type="hidden" name="project_name" value="cv">
+               
+                  <input type="hidden" name="admin_email" value="Lukianienko.al84@gmail.com">
+               
+                  <input type="hidden" name="form_subject" value="my_resume_site">
+               
+                  <!-- END Hidden Required Fields -->
+               
+                  <div class="footer__input">
+               
+                     <input class="footer__form-item" name="name" type="text" value="Name" onfocus="this.value= ' ';"
+                        onblur="if (this.value == '') {this.value = 'Name';}" required>
+               
+                     <input class="footer__form-item" name="email" type="email" value="E-mail" onfocus="this.value= ' ';"
+                        onblur="if (this.value == '') {this.value = 'E-mail';}" required>
+               
+                  </div>
+               
+                  <div class="footer__textarea">
+               
+                     <textarea class="footer__textarea-item" name="message" value="Message" onfocus="this.value= ' ';"
+                        onblur="if (this.value == '') {this.value = 'Message';}"></textarea>
+               
+                  </div>
+               
+                  <button class="button-form footer__send" type="submit">send</button>
+               
+                  <button class="button-form footer__reset" type="reset">reset</button>
+               
+               </form>
+            </div>
+         </div>
+         <div class="footer__userphoto">
+            <img class="footer__userphoto-img" src="imges/photo/user.jpg" alt="userphoto">
+         </div>
+         <div class="footer__animate-phone wow " data-wow-offset="20" >
+            <a class="footer__phone-link" href="#">
+               <img class="footer__phone-img" src="imges/content-projects/telephone.png" alt="Alt">
+               <span class="footer__phone-tel"> Tel: + 3 8 (098) 369 24 18</span>
+            </a>
+         </div>
+      </div>
+      <div class="batton__top" id="batton__top">
+         <a class="btn-top" href="#sidebar">GO TOP</a>
+      </div>
+   </footer> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/libs.min.js"></script>
+   <script src="js/main.js"></script>
+   
+</body>
+
+</html>

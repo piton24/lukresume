@@ -1,0 +1,441 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+
+.header {
+
+    &__top {
+        background-color: $black;
+    }
+
+    &__inner {
+        width: 1210px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 19px auto;
+
+    }
+
+    &__logo {
+        font-weight: 400;
+        font-size: 24px;
+        color: $gold;
+    }
+
+    &__menu-list {
+        display: flex;
+        padding-top: 3px;
+        margin-right: 320px;
+    }
+
+    &__menu-item {
+        margin-right: 40px;
+        &:hover {
+            box-shadow: 0px 0px 15px #aca592;
+        }
+    }
+
+    &__menu-link {
+        font-weight: 400;
+        font-size: 12px;
+        color: #aca592;
+        text-transform: uppercase;
+        padding: 5px 5px;
+        transition: all .2s;
+
+        &:hover {
+            color: $gold;
+        }
+    }
+
+    &__btn-nav {
+        font-weight: 400;
+        font-size: 14px;
+        color: $gold;
+        padding: 15px 25px;
+        border: 1px solid $gold;
+
+        &:hover {
+            box-shadow: 0px 0px 15px #aca592;
+        }
+    }
+
+    &__content {
+        background-image: url(../images/header-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 602px;
+        text-align: center
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: $gold;
+        text-transform: uppercase;
+        padding-top: 120px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 80px;
+        letter-spacing: 1px;
+        color: $fff;
+        margin-top: 15px;
+    }
+
+    &__btn {
+        font-weight: 400;
+        font-size: 14px;
+        color: #181511;
+        background-color: $gold;
+        padding: 17px 25px;
+        border: none;
+        text-align: center;
+        margin-top: 35px;
+        transition: all .2s;
+
+        &:hover {
+            color: $fff;
+        }
+    }
+}
+
+.template {
+    padding-bottom: 121px;
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 20px;
+    }
+
+    &__item {
+        width: 387px;
+        height: 315px;
+        border: 1px solid $gold;
+        text-align: center;
+        position: relative;
+    }
+
+    &__item-img {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        transition: all .3s;
+
+        &:hover {
+            box-shadow: 0px 0px 15px #aca592;
+        }
+
+
+    }
+
+    &__item-title {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $fff;
+        margin-top: 258px
+    }
+}
+
+.title-descr {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aca592;
+    margin-top: 120px;
+}
+
+.title__pages {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: $gold;
+    margin-top: 10px;
+}
+
+.services {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 400px;
+        height: 350px;
+        border: 1px solid $gray;
+        position: relative;
+    }
+
+    &__item-web {
+        transition: all .5s ease;
+
+        &:hover {
+            transform: translateY(-26px);
+        }
+    }
+
+    &__item-uiux {
+        transform: translateY(8px);
+        transition: all .5s ease;
+
+        &:hover {
+            transform: translateY(-30px);
+        }
+    }
+
+    &__item-seo {
+        transform: translateY(16px);
+        transition: all .5s ease;
+
+        &:hover {
+            transform: translateY(-22px);
+        }
+    }
+
+    &__item-inner {
+        position: absolute;
+        top: 60px;
+        left: 61px;
+    }
+
+    &__item-title {
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 34px;
+        color: $gold;
+        margin-top: 20px;
+    }
+
+    &__item-descr {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: $gray;
+        margin-top: 10px;
+    }
+
+    &__item-text {
+        width: 222px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 26px;
+        color: $gray;
+        margin-top: 5px;
+    }
+}
+
+.insta {
+    margin-top: 104px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #4b4136;
+        border-bottom: 1px solid #4b4136;
+        padding: 21px 0px;
+    }
+
+    &__item-box {
+        display: flex
+    }
+
+    &__img {
+        position: relative;
+    }
+
+    &__icon-link {
+        position: absolute;
+        display: inline-block;
+        margin: -33px 74px 0px 94px;
+        z-index: 5;
+    }
+
+    &__box-center {
+        background-image: url(../images/insta-img/instagram_bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__box-title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: $gold;
+    }
+
+    &__btn {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #181511;
+        background-color: $gold;
+        padding: 16px 24px;
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0px 57px;
+        transition: all .2s;
+
+        &:hover {
+            color: $fff;
+        }
+    }
+}
+
+.footer {
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+        width: 517px;
+        margin: 0 auto;
+    }
+
+    &__suptitle-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+        color: $gray;
+        margin-bottom: 82px;
+    }
+
+    &__form {
+        width: 420px;
+        margin: 0 auto;
+    }
+
+    &__input {
+        width: 100%;
+        background: transparent;
+        height: 58px;
+        border: 1px solid $gray;
+        color: $gold;
+        padding-left: 10px;
+
+        &::placeholder {
+            padding-left: 10px;
+        }
+    }
+
+    &__button {
+        display: block;
+        width: 100%;
+        height: 49px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $gray;
+        background-color: $gold;
+        border: none;
+        cursor: pointer;
+        transition: all .2s ;
+
+        &:hover {
+            color: $fff;
+        }
+    }
+    &__form-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: $gray;
+        margin-top: 32px;
+    }
+    &__form-link{
+        color: $gold;
+    }
+    &__sociale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__sociale-item{
+        width: 50px;
+        height: 50px;
+        border: 1px solid $gray;
+        margin: 0px 4px ;
+        
+    }
+    &__sociale-link{
+        display: inline-block;
+        padding: 12px 14px;
+        
+       &:hover{
+            box-shadow: 0 0 10px $gray ;
+        }
+    }
+    &__menu{
+        width: 1210px;
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        border-top:1px solid #4b4136;
+        align-items: center;
+        margin-top: 44px;
+    }
+    &__menu-text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: $gray;
+        margin-left: 5px;
+    }
+    &__webflow-link{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: $gold;
+    }
+
+    &__nav{
+        display: flex;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 30px;
+        color: $gold;
+        margin-right: 5px;
+        
+        
+    }
+    &__nav-item{
+        margin-right: 10px;
+        position: relative;
+        &:nth-last-child(1n+2)::after{
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 12px;
+            background-color: #4b4136;
+            right: -6px;
+            bottom: 10px;
+        }
+    }
+
+}
+
+
+
+
+@import "media";

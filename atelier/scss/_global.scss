@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family:$old;
+    background-color: $black;
+    color: $fff;
+}
+.container{
+    max-width: 1210px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+}
+h1,h2,h3,h4,h5{
+   
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+}
